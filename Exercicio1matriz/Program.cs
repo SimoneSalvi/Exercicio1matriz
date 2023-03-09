@@ -30,7 +30,7 @@
         {
             for (int coluna = 0; coluna < 3; coluna++)
             {
-                Console.Write($" [{matriz[linha, coluna]}]");
+                Console.Write($" [{matriz[linha, coluna].ToString("f2")}]");
             }
             Console.WriteLine("\n");
         }
