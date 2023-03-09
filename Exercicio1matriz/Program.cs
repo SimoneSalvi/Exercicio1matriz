@@ -30,8 +30,9 @@
         {
             for (int coluna = 0; coluna < 3; coluna++)
             {
-                Console.WriteLine($"Posição [{linha},{coluna}] - valor: {matriz[linha, coluna]}");
+                Console.Write($" [{matriz[linha, coluna]}]");
             }
+            Console.WriteLine("\n");
         }
 
     }
